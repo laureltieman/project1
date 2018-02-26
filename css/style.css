@@ -1,0 +1,376 @@
+/* You may set the width and height of container/section elements in percentages. 
+DO NOT USE PERCENTAGES IN TEXTS AND IMAGES : No responsiveness  */
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: black;
+}
+
+@font-face {
+font-family: Lemon Milk;
+src:url(../fonts/lemonmilk.otf); 
+}
+
+@font-face {
+font-family: Cutive Mono;
+src:url(../fonts/cutivemono.ttf); 
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+}
+
+.section {
+	width: 100%;
+	height: 700px;
+}
+
+#first {
+	width: 800px;
+	height: 700px;
+	position: relative;
+	left: 50%;
+	margin-left: -400px;
+}
+
+#second {
+	height: 1050px;
+	padding-bottom: 150px;
+}
+
+#third {
+	width: 800px;
+	height: 700px;
+	position: relative;
+	left: 50%;
+	margin-left: -400px;
+}
+
+#fourth {
+	width: 800px;
+	height: 750px;
+	position: relative;
+	left: 50%;
+	margin-left: -400px;
+	margin-top: 100px;
+}
+
+h1 {
+	font-family: Lemon Milk;
+	font-size: 4em;
+	color: #0fedb2;
+	letter-spacing: 4px;
+}
+
+p {
+	font-family: Cutive Mono;
+	font-size: 1.5em;
+	color: white;
+}
+
+p.arrow {
+	font-size: 2em;
+}
+
+
+.line {
+	background: white;
+	width: 2px;
+}
+
+
+.square {
+	border: 2px solid white;
+}
+
+ /* first section */
+
+
+#photo1 {
+	width: 600px;
+	position: absolute;
+	left: 50%;
+	top: 150px;
+	margin-left: -300px;
+	z-index: -1;
+}
+
+#line1 {
+	-webkit-transform: rotate(26deg);
+	position: absolute;
+	height: 570px;
+	left: 395px;
+	top: 66px;
+}
+
+#square1 {
+	height: 460px;
+	width: 350px;
+	position: absolute;
+	left: 200px;
+	top: 117px;
+	z-index: -2;
+	}
+
+#beauty {
+	position: relative;
+	padding-left: 150px;
+	padding-top: 190px;
+}
+
+#is {
+	position: relative;
+	padding-left: 250px;
+	padding-top: 10px;
+}
+
+#con {
+	position: relative;
+	padding-left: 180px;
+	padding-top: 10px;
+}
+
+#struct {
+	position: relative;
+	padding-left: 40px;
+	padding-top: 10px;
+}
+
+#arrows1 {
+	-webkit-transform: rotate(90deg);
+	position: absolute;
+	left: 650px;
+	top: 580px;
+
+	animation: bounce 1s alternate infinite cubic-bezier(.78,.4,.22,.98);
+}
+
+#arrows2 {
+	-webkit-transform: rotate(90deg);
+	position: absolute;
+	left: 650px;
+	top: 600px;
+
+	animation: secondbounce 1s alternate infinite cubic-bezier(.91,.15,.22,.98);
+
+}
+
+ /* second section */
+
+ #c {
+ 	position: absolute;
+ 	float: left;
+ 	padding-top: 200px;
+ 	padding-left: 500px;
+
+ 	animation: letters 4s infinite cubic-bezier(.65,.05,.36,1);
+
+ }
+
+#r {
+ 	position: absolute;
+ 	float: left;
+ 	 padding-top: 200px;
+ 	padding-left: 600px;
+
+ 	animation: secondletters 5s infinite cubic-bezier(.65,.05,.36,1);
+ }
+
+ #e {
+ 	position: absolute;
+ 	float: left;
+  	padding-top: 200px;
+ 	padding-left: 700px;
+ 
+ 	animation: secondletters 4s infinite cubic-bezier(.65,.05,.36,1);
+ }
+
+ #a {
+ 	position: absolute;
+ 	float: left;
+  	padding-top: 200px;
+ 	padding-left: 800px;
+
+ 	animation: letters 5s infinite cubic-bezier(.65,.05,.36,1);
+
+ }
+
+ #t {
+ 	position: absolute;
+ 	float: left;
+  	padding-top: 200px;
+ 	padding-left: 900px;
+
+ 	animation: secondletters 6s infinite cubic-bezier(.65,.05,.36,1);
+
+ }
+
+ #e2 {
+ 	position: absolute;
+ 	float: left;
+ 	padding-top: 200px;
+ 	padding-left: 1000px;
+
+ 	animation: letters 4.5s infinite cubic-bezier(.65,.05,.36,1);
+
+ }
+
+ #d {
+ 	position: absolute;
+ 	float: left;
+ 	padding-top: 200px;
+ 	padding-left: 1100px;
+
+ 	animation: secondletters 5s infinite cubic-bezier(.65,.05,.36,1);
+
+ }
+
+ #text1 {
+ 	margin-right: 100px;
+ 	text-align: right;
+ }
+
+ #photo2 {
+ 	width: 100%;
+ 	position: relative;
+ 	float: left;
+ 	z-index: -1;
+ 	padding-bottom: 50px;
+ }
+
+ /* third section */
+
+ .dont {
+ 	background-color: #0fedb2;
+ 	color: black;
+ 	padding: 3px;
+ 	font-weight: bold;
+ }
+
+ #photo3 {
+ 	width: 430px;
+ 	margin-left: 400px;
+ }
+
+ #square2 {
+	height: 490px;
+	width: 375px;
+	position: absolute;
+	left: 150px;
+	top: 60px;
+
+	animation: expand 2s alternate infinite cubic-bezier(.65,.05,.36,1);
+}
+
+#textbox {
+	width: 100px;
+	text-align: right;
+	line-height: 30px;
+	position: relative;
+	left: 267px;
+	bottom: 261px;
+}
+
+#arrows3 {
+	position: relative;
+	left: 188px;
+	bottom: 500px;
+}
+ 
+ /* fourth section */
+
+#photo4 {
+	width: 700px;
+	position: relative;
+	float: left;
+}
+
+#line2 {
+	-webkit-transform: rotate(-20deg);
+	position: absolute;
+	height: 800px;
+	left: 423px;
+	bottom: 35px;
+	float: left;
+
+	animation: shrink 2s alternate infinite cubic-bezier(.65,.05,.36,1);
+}
+
+#to {
+	position: relative;
+	float: left;
+	left: 400px;
+	bottom: 550px;
+}
+
+#you {
+	position: relative;
+	float: left;
+	left: 155px;
+	bottom: 465px;
+}
+
+#dont {
+	position: relative;
+	float: left;
+	left: 483px;
+	bottom: 445px;
+}
+
+#need {
+	position: relative;
+	float: left;
+	left: 139px;
+	bottom: 358px;
+}
+
+#arrows4 {
+	padding: 10px;
+	position: relative;
+    left: 87px;
+}
+
+ /* animations 
+
+	left: 423px;
+	bottom: 35px;
+	*/
+
+@-webkit-keyframes expand {
+	0% 	{ width: 375px; height: 490px; left: 150px; top: 60px; }
+	100% 	{ width: 0px; height: 0px; left: 300px; top: 280px;}
+}
+
+@-webkit-keyframes bounce {
+	0% 	{ top: 580px; }
+	100% 	{ top: 600px; }
+}
+
+@-webkit-keyframes secondbounce {
+	0% 	{ top: 600px; }
+	100% 	{ top: 620px; }
+}
+
+@-webkit-keyframes shrink {
+	0% 	{ height: 800px; left: 423px; bottom: 35px; }
+	100% 	{ height: 0px; left: 418px; bottom: 450px; }
+}
+
+@-webkit-keyframes letters {
+	0% { padding-top: 200px; }
+	50% { padding-top: 380px; }
+	100% { padding-top: 200px; }
+
+}
+
+@-webkit-keyframes secondletters {
+	0% { padding-top: 200px; }
+	50% { padding-top: 480px; }
+	100% { padding-top: 200px; }
+
+}
